@@ -145,7 +145,7 @@ CREATE TABLE `role` (
   KEY `idx_update_time` (`update_time`) USING BTREE
 ) ENGINE=InnoDB DEFAULT CHARSET=utf8mb4 COLLATE=utf8mb4_unicode_ci COMMENT='角色表';
 insert into role(id,`name`) values(1,'超级管理员');
-insert into role(id,`name`) values(2,'抹茶群聊管理员');
+insert into role(id,`name`) values(2,'群聊管理员');
 
 DROP TABLE IF EXISTS `user_role`;
 CREATE TABLE `user_role` (
@@ -288,7 +288,7 @@ CREATE TABLE `contact` (
 
 INSERT INTO `user` (`id`, `name`, `avatar`, `sex`, `open_id`, `last_opt_time`, `ip_info`, `item_id`, `status`, `create_time`, `update_time`) VALUES (1, '系统消息', 'http://mms1.baidu.com/it/u=1979830414,2984779047&fm=253&app=138&f=JPEG&fmt=auto&q=75?w=500&h=500', NULL, '0', '2023-07-01 11:58:24.605', NULL, NULL, 0, '2023-07-01 11:58:24.605', '2023-07-01 12:02:56.900');
 insert INTO `room`(`id`,`type`,`hot_flag`) values (1,1,1);
-insert INTO `room_group`(`id`,`room_id`,`name`,`avatar`) values (1,1,'抹茶全员群','https://mallchat.cn/assets/logo-e81cd252.jpeg');
+insert INTO `room_group`(`id`,`room_id`,`name`,`avatar`) values (1,1,'全员群',NULL);
 DROP TABLE IF EXISTS `secure_invoke_record`;
 CREATE TABLE `secure_invoke_record` (
   `id` bigint(20) unsigned NOT NULL AUTO_INCREMENT COMMENT 'id',

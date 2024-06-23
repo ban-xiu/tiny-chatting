@@ -144,7 +144,6 @@ public class GroupMemberServiceImpl implements IGroupMemberService {
             // 4.4 删除消息记录 (逻辑删除)
             Boolean isDelMessage = messageDao.removeByRoomId(roomId, Collections.EMPTY_LIST);
             AssertUtil.isTrue(isDelMessage, CommonErrorEnum.SYSTEM_ERROR);
-            // TODO 这里也可以告知群成员 群聊已被删除的消息
         } else {
             // 4.5 删除会话
             Boolean isDelContact = contactDao.removeByRoomId(roomId, Collections.singletonList(uid));

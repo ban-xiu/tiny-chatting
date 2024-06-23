@@ -97,8 +97,6 @@ public class ChatGLM2Handler extends AbstractChatAIHandler {
     }
 
     /**
-     * TODO
-     *
      * @param gptRequestDTO
      * @return
      */

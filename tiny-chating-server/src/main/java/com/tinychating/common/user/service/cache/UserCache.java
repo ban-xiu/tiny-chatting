@@ -113,7 +113,7 @@ public class UserCache {
     /**
      * 获取用户信息，盘路缓存模式
      */
-    public User getUserInfo(Long uid) {//todo 后期做二级缓存
+    public User getUserInfo(Long uid) {
         return getUserInfoBatch(Collections.singleton(uid)).get(uid);
     }
 

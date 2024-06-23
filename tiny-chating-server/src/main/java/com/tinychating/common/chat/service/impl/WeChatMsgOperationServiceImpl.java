@@ -91,7 +91,6 @@ public class WeChatMsgOperationServiceImpl implements WeChatMsgOperationService 
      */
     private List<WxMpTemplateData> generateAtMsgData(User sender, String msg) {
         List dataList = new ArrayList<WxMpTemplateData>();
-//        todo: 没有消息模板，暂不实现
         dataList.add(new WxMpTemplateData("name", sender.getName(), WE_CHAT_MSG_COLOR));
         dataList.add(new WxMpTemplateData("content", msg, WE_CHAT_MSG_COLOR));
         return dataList;
@@ -99,11 +98,10 @@ public class WeChatMsgOperationServiceImpl implements WeChatMsgOperationService 
 
     /**
      * 推送微信模板消息
-     *
      * @param templateMsg 微信模板消息
      */
     protected void publishTemplateMsg(WxMpTemplateMessage templateMsg) {
-//        WxMpTemplateMsgService wxMpTemplateMsgService = wxMpService.getTemplateMsgService();todo 等审核通过
+//        WxMpTemplateMsgService wxMpTemplateMsgService = wxMpService.getTemplateMsgService();
 //        try {
 //            wxMpTemplateMsgService.sendTemplateMsg(templateMsg);
 //        } catch (WxErrorException e) {

@@ -12,7 +12,7 @@ import java.util.List;
  * Description: 用户相关缓存
  */
 @Component
-public class ItemCache {//todo 多级缓存
+public class ItemCache {
 
     @Autowired
     private ItemConfigDao itemConfigDao;
