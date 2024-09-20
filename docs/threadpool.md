@@ -1,7 +1,7 @@
 # 集中管理线程池
 在 ThreadPoolConfig 中，创建我们项目统一的线程池，并交给 spring 管理
 
-```
+```java
 @Configuration
 @EnableAsync
 public class ThreadPoolConfig implements AsyncConfigurer, SecureInvokeConfigurer {

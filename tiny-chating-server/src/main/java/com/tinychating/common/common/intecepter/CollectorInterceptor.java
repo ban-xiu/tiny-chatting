@@ -28,7 +28,6 @@ public class CollectorInterceptor implements HandlerInterceptor {
         RequestHolder.set(info);
         return true;
     }
-
     @Override
     public void afterCompletion(HttpServletRequest request, HttpServletResponse response, Object handler, Exception ex) throws Exception {
         RequestHolder.remove();

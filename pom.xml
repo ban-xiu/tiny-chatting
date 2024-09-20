@@ -5,7 +5,7 @@
     <modelVersion>4.0.0</modelVersion>
 
     <groupId>com.tiny-chating</groupId>
-    <artifactId>tiny-chating</artifactId>
+    <artifactId>tiny-chatting</artifactId>
     <version>1.0-SNAPSHOT</version>
     <modules>
         <module>tiny-chating-server</module>
