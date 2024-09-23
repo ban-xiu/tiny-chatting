@@ -9,12 +9,12 @@
     </parent>
     <modelVersion>4.0.0</modelVersion>
 
-    <artifactId>tiny-chating-server</artifactId>
+    <artifactId>tiny-chatting-server</artifactId>
 
     <dependencies>
         <dependency>
             <groupId>com.tiny-chating</groupId>
-            <artifactId>tiny-chating-common-starter</artifactId>
+            <artifactId>tiny-chatting-common-starter</artifactId>
         </dependency>
         <dependency>
             <groupId>com.tiny-chating</groupId>
@@ -22,7 +22,7 @@
         </dependency>
         <dependency>
             <groupId>com.tiny-chating</groupId>
-            <artifactId>tiny-chating-oss-starter</artifactId>
+            <artifactId>tiny-chatting-oss-starter</artifactId>
         </dependency>
         <dependency>
             <groupId>com.knuddels</groupId>

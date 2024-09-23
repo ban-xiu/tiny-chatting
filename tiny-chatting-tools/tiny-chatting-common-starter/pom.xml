@@ -3,13 +3,13 @@
          xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
          xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 http://maven.apache.org/xsd/maven-4.0.0.xsd">
     <parent>
-        <artifactId>tiny-chating-tools</artifactId>
+        <artifactId>tiny-chatting-tools</artifactId>
         <groupId>com.tiny-chating</groupId>
         <version>1.0-SNAPSHOT</version>
     </parent>
     <modelVersion>4.0.0</modelVersion>
 
-    <artifactId>tiny-chating-common-starter</artifactId>
+    <artifactId>tiny-chatting-common-starter</artifactId>
 
     <dependencies>
         <dependency>
